@@ -1,0 +1,13 @@
+%html
+  %head
+    %title= @title.blank? ? "Moment" : "#{@title} | Moment"
+    = stylesheet_link_tag "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    = render 'layouts/header'
+    - if @use_container
+      = render "layouts/container", :content => yield
+    - else
+      = yield
+    = render 'layouts/footer'
