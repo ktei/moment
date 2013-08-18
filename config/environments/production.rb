@@ -68,9 +68,9 @@ Moment::Application.configure do
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
-      :bucket => 'ktei_moment',
-      :access_key_id => 'AKIAI3IQEWQIVVFRT6DQ',
-      :secret_access_key => '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'
+      :bucket => ENV['AWS_BUCKET'],
+      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
   }
 end
