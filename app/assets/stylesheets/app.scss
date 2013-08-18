@@ -81,8 +81,8 @@ body {
       margin-bottom: 20px;
     }
     .button {
+      border: 1px solid #fff;
       background-color: transparent;
-      border-color: #fff;
       @include box-shadow(none);
       &:hover {
         background-color: #fff;
