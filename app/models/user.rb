@@ -2,6 +2,10 @@ class User < ActiveRecord::Base
   include Clearance::User
 
   attr_accessible :avatar, :name
+
+  validates :name, 
+    :length =>  { :maximum => 50 }
+
   has_attached_file :avatar,
     :styles => { :profile => ["200x180#", :jpg], :thumb => ["40x40#", :jpg] }
 
