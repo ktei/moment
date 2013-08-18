@@ -64,4 +64,13 @@ Moment::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => 'ktei_moment',
+      :access_key_id => 'AKIAI3IQEWQIVVFRT6DQ',
+      :secret_access_key => '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'
+    }
+  }
 end

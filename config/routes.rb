@@ -1,9 +1,12 @@
 Moment::Application.routes.draw do
   root :to => 'pages#index'
 
-  match '/gallery', :to => 'pages#gallery'
-  match '/dashboard', :to => 'dashboard#albums'
-  match '/upload', :to => 'dashboard#upload'
+  get '/gallery', :to => 'pages#gallery'
+  get '/dashboard', :to => 'dashboard#albums'
+  get '/upload', :to => 'dashboard#upload'
+  get '/profile', :to => 'profile#show'
+  get '/profile/edit', :to => 'profile#edit'
+  put '/profile/update', :to => 'profile#update'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

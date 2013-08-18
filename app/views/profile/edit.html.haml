@@ -1,0 +1,17 @@
+%h2 Profile
+= form_for current_user, :url => profile_update_path, :html => { :multipart => true } do |form|
+  .row
+    .columns.large-3.small-12
+      = image_tag current_user.avatar.url(:profile), :class => 'th'
+    .columns.large-9.small-12
+      %div.field Email:
+      %div.text= current_user.email
+      %div.field Name:
+      = form.text_field :name
+      %div.field Avatar:
+      = form.file_field :avatar
+  .row
+    .columns.small-12
+      %hr/
+      = form.submit "Save", :class => "button"
+      = link_to "Cancel", profile_path, :class => "button secondary"

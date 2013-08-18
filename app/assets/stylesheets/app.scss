@@ -115,7 +115,7 @@ button, .button {
   padding: 15px;
   background-color:#fff;
   @include box-shadow(rgba(0, 0, 0, 0.15) 0 0 20px 0);
-  min-height: 500px;
+  min-height: 650px;
 }
 
 .alert-box {
@@ -136,6 +136,19 @@ button, .button {
     font-weight: normal;
     list-style:none;
   }
+}
+
+.field {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.text {
+  @include wrap;
+}
+
+.muted {
+  color: #6f6f6f;
 }
 
 .pull-right {

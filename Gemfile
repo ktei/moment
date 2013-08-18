@@ -2,8 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'clearance'
+gem "paperclip"
 gem 'will_paginate'
 gem 'haml'
+gem 'aws-sdk'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

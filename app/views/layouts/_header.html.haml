@@ -16,7 +16,7 @@
         %li
           = link_to "Dashboard", dashboard_path
         %li
-          %a{href: "#"}Memo
+          = link_to "Profile", profile_path
     %ul.right
       - if signed_in?
         %li= link_to 'Sign out', sign_out_path, method: :delete
