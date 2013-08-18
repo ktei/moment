@@ -1,4 +1,8 @@
 .row
   .columns.small-12
     .container
+      - flash.each do |key, value|
+        .div.alert-box{data: {alert: ''}, class: "#{key}"}
+          = value
+          %a{href: "#", class: "close"} &times;
       = content

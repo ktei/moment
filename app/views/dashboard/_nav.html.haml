@@ -1,0 +1,6 @@
+%h2 Dashboard
+%dl.sub-nav
+  %dd{:class => "#{'active' if request == :albums}"}
+    = link_to "Albums", dashboard_path
+  %dd{:class => "#{'active' if request == :upload}"}
+    = link_to "Upload", upload_path

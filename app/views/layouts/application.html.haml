@@ -6,7 +6,7 @@
     = csrf_meta_tags
   %body
     = render 'layouts/header'
-    - if @use_container
+    - if !@ignore_container
       = render "layouts/container", :content => yield
     - else
       = yield

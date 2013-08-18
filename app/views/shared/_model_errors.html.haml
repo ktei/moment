@@ -1,0 +1,6 @@
+- if m.errors.any?
+  .alert-box.alert{data: {alert: ''}}
+    %strong Oops, there were some problems...
+    %ul
+      - m.errors.full_messages.each do |msg|
+        %li= "#{msg}"

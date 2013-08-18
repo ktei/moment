@@ -5,4 +5,6 @@
       %p.lead
         This site is built for my families and friends to host and share photos.
       %p
-        %a.button.large.sign-up{href: "#"} Sign up for free
+        = link_to 'Sign up for free', sign_up_path, :class => 'button large sign-up'
+      %p
+        = link_to 'Log in', sign_in_path, :class => 'button'

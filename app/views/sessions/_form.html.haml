@@ -1,0 +1,15 @@
+= form_for :session, :html => {:class => "bordered"}, :url => session_path do |form|
+  .row
+    .columns.small-12
+      = form.label :email
+      = form.text_field :email, :type => 'email'
+  .row
+    .columns.small-12
+      = form.label :password
+      = form.password_field :password
+  .row
+    .columns.small-12
+      = form.submit 'Log in', :class => "button"
+      = link_to "Sign up", sign_up_path
+
+

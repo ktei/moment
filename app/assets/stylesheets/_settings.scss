@@ -1,8 +1,16 @@
+$body-font-family: arial,helvetica,sans-serif;
+
 $primary-color: #d74a38;
 $notice-color: #2ba6cb;
 
-$topbar-height: 55px;
+$topbar-height: 50px;
 $topbar-bg: #d74a38;
 $topbar-divider-border-bottom: solid 1px #fff !default;
 $topbar-divider-border-top: solid 1px #fff !default;
 $topbar-margin-bottom: 0;
+
+$sub-nav-border-radius: 0px;
+$sub-nav-font-size: 18px;
+$sub-nav-active-font-weight: normal;
+
+$panel-padding: emCalc(8px);
