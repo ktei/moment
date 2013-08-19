@@ -2,7 +2,7 @@ Moment::Application.routes.draw do
   root :to => 'pages#index'
 
   get '/gallery', :to => 'pages#gallery'
-  get '/dashboard', :to => 'dashboard#albums'
+  match '/dashboard', :to => 'dashboard#albums', :via => ['post', 'get']
   get '/upload', :to => 'dashboard#upload'
   get '/profile', :to => 'profile#show'
   get '/profile/edit', :to => 'profile#edit'

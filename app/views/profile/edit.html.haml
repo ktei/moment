@@ -1,5 +1,5 @@
 %h2 Profile
-= form_for current_user, :url => profile_update_path, :html => { :multipart => true } do |form|
+= form_for current_user, :url => profile_update_path do |form|
   = render 'shared/model_errors', :m => current_user
   .row
     .columns.large-3.small-12

@@ -1,0 +1,153 @@
+# Logfile created on 2013-08-19 21:22:24 +1000 by logger.rb/31641
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: POST /profile/update with {"utf8"=>"✓", "_method"=>"put", "user"=>{"name"=>"Rui Cheng_changed", "avatar"=>""}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET http://www.example.com/profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/update"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: POST /profile/update with {"utf8"=>"✓", "_method"=>"put", "user"=>{"name"=>"Rui Cheng_changed", "avatar"=>""}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET http://www.example.com/profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/update"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: POST /profile/update with {"utf8"=>"✓", "_method"=>"put", "user"=>{"name"=>"Rui Cheng_changed_changed", "avatar"=>""}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET http://www.example.com/profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/update"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: POST /profile/update with {"utf8"=>"✓", "_method"=>"put", "user"=>{"name"=>"Rui Cheng_changed", "avatar"=>""}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET http://www.example.com/profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/update"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: POST /profile/update with {"utf8"=>"✓", "_method"=>"put", "user"=>{"name"=>"Rui Cheng_changed_changed", "avatar"=>""}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET http://www.example.com/profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/update"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: POST /profile/update with {"utf8"=>"✓", "_method"=>"put", "user"=>{"name"=>"Rui Cheng_changed", "avatar"=>""}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET http://www.example.com/profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/update"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: POST /profile/update with {"utf8"=>"✓", "_method"=>"put", "user"=>{"name"=>"Rui Cheng_changed", "avatar"=>""}, "commit"=>"Save"} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET http://www.example.com/profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/update"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"/profile/edit"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile/edit with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}
+REQUESTING PAGE: GET /sign_in with {} and HTTP headers {}
+REQUESTING PAGE: POST /session with {"utf8"=>"✓", "session"=>{"email"=>"ktei2008@gmail.com", "password"=>"blizzard"}, "commit"=>"Log in"} and HTTP headers {"HTTP_REFERER"=>"/sign_in"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+REQUESTING PAGE: GET http://www.example.com/dashboard with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+REQUESTING PAGE: GET /profile with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/dashboard"}

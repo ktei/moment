@@ -2,10 +2,10 @@ class DashboardController < ApplicationController
   before_filter :authorize
 
   def albums
-    @title = 'Dashboard'
+    @title = 'Dashboard - Albums'
   end
 
   def upload
-    @title = 'Dashboard'
+    @title = 'Dashboard - Upload'
   end
 end
