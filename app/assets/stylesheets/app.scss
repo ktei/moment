@@ -155,6 +155,32 @@ button, .button {
   float:right;
 }
 
+ul {
+  &.side-nav {
+    li {
+      margin: 0 0 3px 0;
+      &.title {
+        font-size: 17px;
+        font-weight: bold;
+      }
+      &.sub-item {
+        margin-left: 5px;
+        &.active {
+          a {
+            font-weight: bold;
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+img {
+  &.lib-preview {
+  }
+}
+
 form {
   &.bordered {
     border: 1px solid $secondary-color;

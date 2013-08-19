@@ -1,0 +1,12 @@
+%ul.side-nav
+  %li.title Library
+  %li.sub-item{:class => "#{'active' if !@album.nil? and @album.new_record?}"}
+    = link_to "+ Create new album", new_album_path
+  %li.divider
+  %li.title Albums
+  %li.sub-item{:class => "#{'active' if !@albums.nil?}"}
+    %a{href: "#"} All
+  %li.sub-item
+    %a{href: "#"} Album 1
+  %li.sub-item
+    %a{href: "#"} Album 2

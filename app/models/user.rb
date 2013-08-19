@@ -3,6 +3,8 @@ class User < ActiveRecord::Base
 
   attr_accessible :avatar, :name
 
+  has_many :albums, :dependent => :destroy
+
   validates :name, 
     :length =>  { :maximum => 50 }
 

@@ -29,8 +29,8 @@ describe PagesController do
         get :index
       end
 
-      it "should redirect to Dashboard" do
-        response.should redirect_to(dashboard_path)
+      it "should redirect to Library" do
+        response.should redirect_to(library_path)
       end
     end
   end

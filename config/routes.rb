@@ -2,11 +2,14 @@ Moment::Application.routes.draw do
   root :to => 'pages#index'
 
   get '/gallery', :to => 'pages#gallery'
-  match '/dashboard', :to => 'dashboard#albums', :via => ['post', 'get']
-  get '/upload', :to => 'dashboard#upload'
+  get '/library/(:album_id)', :to => 'library#albums', :as => 'library'
+  get '/new_album', :to => 'library#new_album', :as => 'new_album'
+  get '/upload', :to => 'library#upload'
   get '/profile', :to => 'profile#show'
   get '/profile/edit', :to => 'profile#edit'
   put '/profile/update', :to => 'profile#update'
+
+  resources :albums, :only => [:create, :update, :destroy]
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

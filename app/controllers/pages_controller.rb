@@ -4,7 +4,7 @@ class PagesController < ApplicationController
 
   def index
     if signed_in?
-      redirect_to dashboard_path
+      redirect_to library_path
     else
       @ignore_container = true
       render :template => 'pages/home'
