@@ -3,3 +3,10 @@
   .columns.large-3.small-12
     = render 'library/nav'
   .columns.large-9.small-12
+    = render 'shared/model_errors', :m => @album
+    = form_for @album, :html => {:class => "bordered"} do |form|
+      = render 'library/album_fields', :form => form
+      .row
+        .columns.small-12
+          = form.submit "Create", :class => "button"
+          = link_to "Cancel", request.referrer, :class => "button secondary"

@@ -1,7 +1,7 @@
 .row
   .columns.small-12.large-6.large-centered
     = render 'shared/model_errors', :m => @user
-    = form_for @user, :html => {:class => "bordered"} do |form|
+    = form_for @user, :html => {:class => "bordered margin-top"} do |form|
       %h4 Sign up
       = render 'users/form', :form => form
       .row

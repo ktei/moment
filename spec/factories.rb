@@ -8,4 +8,10 @@ FactoryGirl.define do
   sequence :email do |n|
     "user-#{n}@test.com"
   end
+
+  factory :album do |album|
+    album.title "foobar"
+    album.description "foobar desc"
+    album.association :user
+  end
 end

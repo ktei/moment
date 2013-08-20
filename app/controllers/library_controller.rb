@@ -3,7 +3,12 @@ class LibraryController < ApplicationController
 
   def albums
     @title = 'Library - Albums'
-    @albums = [] if not params.has_key?(:album_id)
+    if not params.has_key?(:album_id)
+      @album = current_user.albums.first
+    else
+      @album = current_user.albums.where(id: params[:album_id]).first
+      redirect_to library_path if @album.nil?
+    end
   end
 
   def new_album

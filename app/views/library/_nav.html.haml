@@ -4,9 +4,6 @@
     = link_to "+ Create new album", new_album_path
   %li.divider
   %li.title Albums
-  %li.sub-item{:class => "#{'active' if !@albums.nil?}"}
-    %a{href: "#"} All
-  %li.sub-item
-    %a{href: "#"} Album 1
-  %li.sub-item
-    %a{href: "#"} Album 2
+  - current_user.albums.select { |x| not x.new_record? }.each do |album|
+    %li.sub-item{:class => "#{'active' if !@album.nil? and @album == album}"}
+      = link_to album.title, library_path(:album_id => album.id)

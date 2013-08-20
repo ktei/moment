@@ -94,6 +94,7 @@ body {
 
 button, .button {
   border:none;
+  margin:0;
   @include box-shadow(none);
 }
 
@@ -157,6 +158,7 @@ button, .button {
 
 ul {
   &.side-nav {
+    padding: 0;
     li {
       margin: 0 0 3px 0;
       &.title {
@@ -184,9 +186,14 @@ img {
 form {
   &.bordered {
     border: 1px solid $secondary-color;
-    padding: 15px 30px;
-    margin-top: 50px;
+    padding: 10px 15px;
+    @media #{$small} {
+      padding: 15px 30px;
+    }
     @include box-shadow(rgba(0,0,0,.05) 0 1px 2px);
+    &.margin-top {
+      margin-top: 50px;
+    }
   }
 }
 
@@ -194,4 +201,27 @@ footer {
   background-color:$primary-color;
   padding: 25px;
   color: #fff;
+}
+
+textarea {
+  resize:vertical;
+  height:100px;
+  &.small {
+    height:50px;
+    @media #{$medium} {
+      height:100px;
+    }
+  }
+  &.medium {
+    height:100px;
+    @media #{$medium} {
+      height:200px;
+    }
+  }
+  &.large {
+    height:150px;
+    @media #{$medium} {
+      height:400px;
+    }
+  }
 }
