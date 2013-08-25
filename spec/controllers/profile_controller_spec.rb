@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'clearance/testing'
 
 describe ProfileController do
   render_views

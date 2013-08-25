@@ -14,4 +14,9 @@ FactoryGirl.define do
     album.description "foobar desc"
     album.association :user
   end
+
+  factory :photo do |photo|
+    photo.description "foobar desc"
+    photo.association :album
+  end
 end

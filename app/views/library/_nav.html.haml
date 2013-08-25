@@ -1,7 +1,7 @@
 %ul.side-nav
   %li.title Library
   %li.sub-item{:class => "#{'active' if !@album.nil? and @album.new_record?}"}
-    = link_to "+ Create new album", new_album_path
+    = link_to "Create new album", new_album_path
   %li.divider
   %li.title Albums
   - current_user.albums.select { |x| not x.new_record? }.each do |album|

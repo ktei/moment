@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'clearance/testing'
 
 describe PagesController do
   render_views
